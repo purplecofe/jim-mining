@@ -9,7 +9,7 @@ Config = {
 	img = "qb-inventory/html/images/", --Set this to the image directory of your inventory script or "nil" if using newer qb-menu
 	CheckMarks = true, -- shows checkmarks if user has the materials to craft an item, set false if causing lag.
 	Lan = "cn", -- Pick your language here
-	JimMenu = false, -- Set this to true if using update qb-menu with icons
+	JimMenu = true, -- Set this to true if using update qb-menu with icons
 	JimShops = false, -- Set this to true if using jim-shops
 	Job = nil, -- set this to a job role eg "miner" or nil for no job
 	Notify = "qb",
@@ -17,7 +17,7 @@ Config = {
 	K4MB1Only = false,
 
 	--Lighting for mines
-	HangingLights = false, -- if false, will spawn work lights. if true will spawn hanging lights
+	HangingLights = true, -- if false, will spawn work lights. if true will spawn hanging lights
 
 	Timings = { -- Time it takes to do things
 		["Cracking"] = math.random(9000, 11500),
