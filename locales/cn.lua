@@ -1,4 +1,4 @@
-Loc["en"] = {
+Loc["cn"] = {
     error = {
         ["cancelled"] = "取消!",
         ["no_drillbit"] = "你没有钻头",
