@@ -6,14 +6,14 @@ Config = {
 	Debug = false, -- enable debug mode
 	Blips = true, -- Enable Blips?
 	BlipNamer = false, -- Enable to Name Blips different things, disable if you already have too many blips as this will group them together
-	img = "qs-inventory/html/images/", --Set this to the image directory of your inventory script or "nil" if using newer qb-menu
+	img = "qb-inventory/html/images/", --Set this to the image directory of your inventory script or "nil" if using newer qb-menu
 	CheckMarks = true, -- shows checkmarks if user has the materials to craft an item, set false if causing lag.
-	Lan = "cn", -- Pick your language here
+	Lan = "tc", -- Pick your language here
 	JimMenu = false, -- Set this to true if using update qb-menu with icons
 	JimShops = false, -- Set this to true if using jim-shops
 	Job = nil, -- set this to a job role eg "miner" or nil for no job
 	Notify = "qb",
-	K4MB1 = false,
+	K4MB1 = true,
 	K4MB1Only = false,
 
 	--Lighting for mines
